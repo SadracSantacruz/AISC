@@ -8,26 +8,26 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link href="/">
-          <div className="relative w-10 h-10 group">
+          <div className="relative w-16 h-16 group">
             <Image
-              src="/logo.png"
+              src="/transparent_logo.png"
               alt="AISC Logo"
-              width={40}
-              height={40}
+              width={64}
+              height={64}
               className="absolute transition-opacity duration-300 group-hover:opacity-0"
             />
             <Image
-              src="/logo-hover.png"
+              src="/colored_logo.png"
               alt="AISC Logo Lit"
-              width={40}
-              height={40}
+              width={64}
+              height={64}
               className="absolute transition-opacity duration-300 opacity-0 group-hover:opacity-100"
             />
           </div>
         </Link>
 
         {/* Navigation Links */}
-        <ul className="hidden md:flex space-x-8 text-white font-semibold tracking-wide text-sm">
+        <ul className="hidden md:flex space-x-8 text-white font-semibold tracking-wide text-[18px]">
           <li>
             <Link href="/about">ABOUT</Link>
           </li>
