@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <section className="flex flex-col items-center justify-center text-center text-white px-4 py-24">
+      <section className="flex flex-col items-center justify-center text-white px-4 py-24 text-center md:text-left">
         <Image
           src="/3DCubeLogo.png"
           alt="AISC Logo"
@@ -27,7 +27,7 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="flex flex-col md:flex-row justify-between items-center text-white px-6 md:px-20 py-20 gap-12">
+      <section className="flex flex-col md:flex-row justify-between items-center text-white px-6 md:px-20 py-20 gap-y-12 md:gap-y-0">
         {/* Left Side Text */}
         <div className="md:w-1/2 text-lg leading-relaxed">
           <p>
@@ -53,7 +53,7 @@ export default function Home() {
       </section>
 
       {/* Bottom Justification Text */}
-      <section className="text-white px-6 md:px-20 pb-16 text-left text-xl font-normal leading-relaxed">
+      <section className="text-white px-6 md:px-20 pb-16 text-left text-xl font-normal leading-relaxed max-w-5xl mx-auto">
         <p>
           Given that, it’s important for everyone to be AI literate, and
           understand the capabilities of this technology instead of succumbing
@@ -61,23 +61,23 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="text-white px-6 md:px-20 py-24">
-        <div className="flex justify-center items-end gap-4 mb-10">
+      <section className="text-white px-6 md:px-20 py-24 text-center md:text-right">
+        <div className="flex flex-col items-center text-center gap-4 mb-10 md:flex-row md:justify-center md:items-end md:text-right">
           <h2
-            className="text-[200px] font-black leading-none"
+            className="text-[150px] md:text-[200px] font-black leading-none"
             style={{ color: "#20CCF124" }}
           >
             YET
           </h2>
           <h2
-            className="text-[100px] font-black leading-none mb-6"
+            className="text-[60px] md:text-[100px] font-black leading-none mb-6"
             style={{ color: "#20CCF124" }}
           >
             ONLY
           </h2>
         </div>
 
-        <div className="flex flex-col items-end text-right gap-8">
+        <div className="flex flex-col items-center md:items-end text-center md:text-right gap-8 px-4 max-w-3xl mx-auto">
           <p className="text-lg">
             <span className="inline-flex items-end gap-2">
               <span className="text-5xl">♀️♂️♂️</span>
@@ -110,7 +110,7 @@ export default function Home() {
       </section>
 
       <section className="text-white px-6 md:px-20 py-24">
-        <p className="text-3xl md:text-5xl font-light leading-relaxed mb-12 max-w-5xl">
+        <p className="text-3xl md:text-5xl font-light leading-relaxed mb-12 max-w-5xl mx-auto">
           AISC @ UCSD wants to change that by providing{" "}
           <span className="italic text-pink-400 font-semibold">
             accessible AI literacy
@@ -132,7 +132,7 @@ export default function Home() {
           backgroundPosition: "center",
         }}
       >
-        <div className="max-w-4xl">
+        <div className="max-w-4xl mx-auto text-center md:text-left">
           <h2 className="text-5xl md:text-6xl font-black text-sky-400 mb-8 leading-tight">
             THE GRADE <br /> SCHOOL <br /> INITIATIVE
           </h2>
@@ -148,7 +148,7 @@ export default function Home() {
 
       <section>
         <Carousel />
-        <div className="flex justify-center mt-8">
+        <div className="flex justify-center mt-8 px-4">
           <Button text="VIEW ALL EVENTS" href="/events" size="md" />
         </div>
       </section>
