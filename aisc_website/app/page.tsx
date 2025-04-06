@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar/Navbar";
+import Button from "@/components/Button/Button";
+import Carousel from "@/components/Carousel/Carousel";
 
 export default function Home() {
   return (
@@ -50,7 +52,7 @@ export default function Home() {
       </section>
 
       {/* Bottom Justification Text */}
-      <section className="bg-black text-white px-6 md:px-20 pb-16 text-left text-xl font-normal leading-relaxed">
+      <section className="text-white px-6 md:px-20 pb-16 text-left text-xl font-normal leading-relaxed">
         <p>
           Given that, it’s important for everyone to be AI literate, and
           understand the capabilities of this technology instead of succumbing
@@ -58,7 +60,7 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="bg-black text-white px-6 md:px-20 py-24">
+      <section className="text-white px-6 md:px-20 py-24">
         <div className="flex justify-center items-end gap-4 mb-10">
           <h2
             className="text-[200px] font-black leading-none"
@@ -104,6 +106,50 @@ export default function Home() {
           Not everyone has the means to become AI literate, whether it's due to
           a lack of resources, opportunities, or time.
         </p>
+      </section>
+
+      <section className="text-white px-6 md:px-20 py-24">
+        <p className="text-3xl md:text-5xl font-light leading-relaxed mb-12 max-w-5xl">
+          AISC @ UCSD wants to change that by providing{" "}
+          <span className="italic text-pink-400 font-semibold">
+            accessible AI literacy
+          </span>{" "}
+          for students, equipping them to enter the changing workforce and
+          world.
+        </p>
+        <p className="italic text-gray-300 text-xl">
+          See how we’ve been working towards that…
+        </p>
+      </section>
+
+      <section
+        className="relative text-white px-6 md:px-20 py-32"
+        style={{
+          // Insert background image here
+          backgroundImage: "url('/08EF74E8-9953-4003-BB54-202E0D124B60.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="max-w-4xl">
+          <h2 className="text-5xl md:text-6xl font-black text-sky-400 mb-8 leading-tight">
+            THE GRADE <br /> SCHOOL <br /> INITIATIVE
+          </h2>
+          <p className="italic text-xl text-white mb-8">
+            Exploring the power of AI with students <br /> in underrepresented
+            communities.
+          </p>
+
+          {/* I think this button should redirect you to the Initiatives page */}
+          <Button text="READ MORE" href="/grade-school-initiative" size="lg" />
+        </div>
+      </section>
+
+      <section>
+        <Carousel />
+        <div className="flex justify-center mt-8">
+          <Button text="READ MORE" href="/events" size="md" />
+        </div>
       </section>
     </>
   );
