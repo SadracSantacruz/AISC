@@ -5,10 +5,10 @@ import Link from "next/link";
 const Navbar: React.FC = () => {
   return (
     <nav className="bg-transparent px-8 py-4">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
+      <div className="max-w-7xl mx-auto flex items-center text-white font-semibold tracking-wide text-[18px]">
         {/* Logo */}
         <Link href="/">
-          <div className="relative w-16 h-16 group">
+          <div className="relative w-16 h-16 group mr-8">
             <Image
               src="/transparent_logo.png"
               alt="AISC Logo"
@@ -26,8 +26,8 @@ const Navbar: React.FC = () => {
           </div>
         </Link>
 
-        {/* Navigation Links */}
-        <ul className="hidden md:flex space-x-8 text-white font-semibold tracking-wide text-[18px]">
+        {/* Left Nav */}
+        <ul className="flex space-x-8">
           <li>
             <Link href="/about">ABOUT</Link>
           </li>
@@ -40,6 +40,13 @@ const Navbar: React.FC = () => {
           <li>
             <Link href="/hfai">HFAI</Link>
           </li>
+        </ul>
+
+        {/* Spacer */}
+        <div className="flex-1" />
+
+        {/* Right Nav */}
+        <ul>
           <li>
             <Link href="/get-involved">GET INVOLVED</Link>
           </li>
