@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar/Navbar";
 import Button from "@/components/Button/Button";
 import Carousel from "@/components/Carousel/Carousel";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -151,6 +152,7 @@ export default function Home() {
           <Button text="READ MORE" href="/events" size="md" />
         </div>
       </section>
+      <Footer />
     </>
   );
 }
