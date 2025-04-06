@@ -149,7 +149,7 @@ export default function Home() {
       <section>
         <Carousel />
         <div className="flex justify-center mt-8">
-          <Button text="READ MORE" href="/events" size="md" />
+          <Button text="VIEW ALL EVENTS" href="/events" size="md" />
         </div>
       </section>
       <Footer />
