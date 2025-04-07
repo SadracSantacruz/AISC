@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Data Validation Pipeline",
+    "description": "A service that helps people gather image data through crowdsources contributions; composed of UI, NLP pipeline, and Validation pipeline components.",
+    "contributors": [
+      "Saarthak Trivedi",
+      "Kenzo Ku",
+      "Holly Zhu",
+      "Arnav Kamdar",
+      "Caleb Li"
+    ],
+    "link": "https://github.com/aisc/data-validation-pipeline",
+    "image": "/data_validation.png"
+  },
+  {
+    "title": "Discord Bot",
+    "description": "A reinforcement learning powered bot to help moderate the spam and inappropriate content in the servers it is placed in.",
+    "contributors": [
+      "Dario Tzeng",
+      "Amogh Manjunath",
+      "Sophia Fang",
+      "Borna Hematty"
+    ],
+    "link": "https://github.com/aisc/discord-bot",
+    "image": "/discord_bot.png"
+  },
+  {
+    "title": "Website Development",
+    "description": "The development of this website! It was made with React, Typescript, Tailwind, and love.",
+    "contributors": [
+      "Parth Patel",
+      "Daniel Lin",
+      "Sadrac Santacruz Ibarra",
+      "Meiqi Lai",
+      "Aung Myat"
+    ],
+    "link": "https://github.com/aisc/aisc_website",
+    "image": "/website_dev.png"
+  }
+]
