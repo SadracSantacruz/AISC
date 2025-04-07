@@ -47,16 +47,36 @@ const Navbar: React.FC = () => {
 
           <ul className="flex space-x-8">
             <li>
-              <Link href="/about">ABOUT</Link>
+              <Link
+                href="/about"
+                className="hover:text-purple-400 transition-colors duration-200"
+              >
+                ABOUT
+              </Link>
             </li>
             <li>
-              <Link href="/initiatives">INITIATIVES</Link>
+              <Link
+                href="/initiatives"
+                className="hover:text-purple-400 transition-colors duration-200"
+              >
+                INITIATIVES
+              </Link>
             </li>
             <li>
-              <Link href="/events">EVENTS</Link>
+              <Link
+                href="/events"
+                className="hover:text-purple-400 transition-colors duration-200"
+              >
+                EVENTS
+              </Link>
             </li>
             <li>
-              <Link href="/hfai">HFAI</Link>
+              <Link
+                href="/hfai"
+                className="hover:text-purple-400 transition-colors duration-200"
+              >
+                HFAI
+              </Link>
             </li>
           </ul>
 
@@ -64,7 +84,12 @@ const Navbar: React.FC = () => {
 
           <ul>
             <li>
-              <Link href="/get-involved">GET INVOLVED</Link>
+              <Link
+                href="/get-involved"
+                className="hover:text-purple-400 transition-colors duration-200"
+              >
+                GET INVOLVED
+              </Link>
             </li>
           </ul>
         </div>
@@ -83,12 +108,42 @@ const Navbar: React.FC = () => {
               <div className="w-8 h-1 bg-white" />
             </div>
           </button>
-          <Link href="/">HOME</Link>
-          <Link href="/about">ABOUT</Link>
-          <Link href="/initiatives">INITIATIVES</Link>
-          <Link href="/events">EVENTS</Link>
-          <Link href="/hfai">HFAI</Link>
-          <Link href="/get-involved">GET INVOLVED</Link>
+          <Link
+            href="/"
+            className="hover:text-purple-400 transition-colors duration-200"
+          >
+            HOME
+          </Link>
+          <Link
+            href="/about"
+            className="hover:text-purple-400 transition-colors duration-200"
+          >
+            ABOUT
+          </Link>
+          <Link
+            href="/initiatives"
+            className="hover:text-purple-400 transition-colors duration-200"
+          >
+            INITIATIVES
+          </Link>
+          <Link
+            href="/events"
+            className="hover:text-purple-400 transition-colors duration-200"
+          >
+            EVENTS
+          </Link>
+          <Link
+            href="/hfai"
+            className="hover:text-purple-400 transition-colors duration-200"
+          >
+            HFAI
+          </Link>
+          <Link
+            href="/get-involved"
+            className="hover:text-purple-400 transition-colors duration-200"
+          >
+            GET INVOLVED
+          </Link>
         </div>
       )}
     </nav>
