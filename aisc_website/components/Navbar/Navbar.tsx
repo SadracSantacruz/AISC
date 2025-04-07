@@ -71,12 +71,14 @@ const Navbar: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link
-                href="/hfai"
+              <a
+                href="https://humansforai.com/aisc"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-purple-400 transition-colors duration-200"
               >
                 HFAI
-              </Link>
+              </a>
             </li>
           </ul>
 
@@ -132,12 +134,14 @@ const Navbar: React.FC = () => {
           >
             EVENTS
           </Link>
-          <Link
-            href="/hfai"
+          <a
+            href="https://humansforai.com/aisc"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-purple-400 transition-colors duration-200"
           >
             HFAI
-          </Link>
+          </a>
           <Link
             href="/get-involved"
             className="hover:text-purple-400 transition-colors duration-200"
