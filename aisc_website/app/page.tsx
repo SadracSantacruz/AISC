@@ -8,23 +8,25 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <section className="flex flex-col items-center justify-center text-white px-4 py-24 text-center md:text-left">
-        <Image
-          src="/3DCubeLogo.png"
-          alt="AISC Logo"
-          width={400}
-          height={400}
-          className="mb-8 animate-[float_3s_ease-in-out_infinite]"
-        />
-        <h1 className="text-2xl md:text-3xl font-bold tracking-widest mb-2">
-          ARTIFICIAL INTELLIGENCE STUDENT COLLECTIVE
-        </h1>
-        <p className="text-sm md:text-base text-gray-300 mb-4">
-          Powered by Humans For AI
-        </p>
-        <p className="text-base md:text-lg">
-          Creating a future of AI literacy for all.
-        </p>
+      <section className="w-full text-white py-24 text-center md:text-left">
+        <div className="flex flex-col items-center justify-center px-4">
+          <Image
+            src="/3DCubeLogo.png"
+            alt="AISC Logo"
+            width={400}
+            height={400}
+            className="mb-8 animate-[float_3s_ease-in-out_infinite]"
+          />
+          <h1 className="text-2xl md:text-3xl font-bold tracking-widest mb-2">
+            ARTIFICIAL INTELLIGENCE STUDENT COLLECTIVE
+          </h1>
+          <p className="text-sm md:text-base text-gray-300 mb-4">
+            Powered by Humans For AI
+          </p>
+          <p className="text-base md:text-lg">
+            Creating a future of AI literacy for all.
+          </p>
+        </div>
       </section>
 
       <section className="flex flex-col md:flex-row justify-between items-center text-white px-6 md:px-20 py-20 gap-y-12 md:gap-y-0">
