@@ -29,6 +29,16 @@
   }
 }
 
+@keyframes nebulaShift {
+  0%,
+  100% {
+    transform: scale(1) translate(0, 0);
+  }
+  50% {
+    transform: scale(1.05) translate(-5%, -5%);
+  }
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
@@ -40,11 +50,12 @@ body::before {
   position: fixed;
   inset: 0;
   z-index: -1;
-  background: radial-gradient(circle at top left, #a855f7aa, transparent 40%),
-    radial-gradient(circle at top right, #9333ea88, transparent 50%),
-    radial-gradient(circle at bottom right, #0ea5e988, transparent 45%),
-    radial-gradient(circle at bottom left, #8b5cf688, transparent 45%);
-  filter: blur(100px);
-  opacity: 0.6;
+  background: radial-gradient(circle at -200% 0%, #a855f7aa, transparent 40%),
+    radial-gradient(circle at 200% 0%, #9333ea88, transparent 50%),
+    radial-gradient(circle at 200% 100%, #0ea5e988, transparent 45%),
+    radial-gradient(circle at -200% 100%, #8b5cf688, transparent 45%);
+  filter: blur(10px);
+  opacity: 0.3;
   pointer-events: none;
+  animation: nebulaShift 20s ease-in-out infinite;
 }
