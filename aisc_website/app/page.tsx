@@ -17,7 +17,7 @@ export default function Home() {
             height={400}
             className="mb-8 animate-[float_3s_ease-in-out_infinite]"
           />
-          <h1 className="text-2xl md:text-3xl font-bold tracking-widest mb-2">
+          <h1 className="text-5xl md:text-5xl font-bold tracking-widest mb-2">
             ARTIFICIAL INTELLIGENCE STUDENT COLLECTIVE
           </h1>
           <p className="text-sm md:text-base text-gray-300 mb-4">
@@ -128,12 +128,14 @@ export default function Home() {
       <section
         className="relative text-white px-6 md:px-20 py-32"
         style={{
-          // Insert background image here
-          backgroundImage: "url('/08EF74E8-9953-4003-BB54-202E0D124B60.png')",
+          backgroundImage: "url('/education.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
+        <div className="absolute top-6 right-6 text-lg font-bold text-white uppercase tracking-wide opacity-70">
+          We are a national community
+        </div>
         <div className="max-w-4xl mx-auto text-center md:text-left">
           <h2 className="text-5xl md:text-6xl font-black text-sky-400 mb-8 leading-tight">
             THE GRADE <br /> SCHOOL <br /> INITIATIVE

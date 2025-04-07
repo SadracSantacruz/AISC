@@ -26,23 +26,21 @@ const Navbar: React.FC = () => {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center w-full">
-          <Link href="/">
-            <div className="relative w-16 h-16 group mr-8">
-              <Image
-                src="/transparent_logo.png"
-                alt="AISC Logo"
-                width={64}
-                height={64}
-                className="absolute transition-opacity duration-300 group-hover:opacity-0"
-              />
-              <Image
-                src="/colored_logo.png"
-                alt="AISC Logo Lit"
-                width={64}
-                height={64}
-                className="absolute transition-opacity duration-300 opacity-0 group-hover:opacity-100"
-              />
-            </div>
+          <Link href="/" className="relative w-16 h-16 group mr-8">
+            <Image
+              src="/transparent_logo.png"
+              alt="AISC Logo"
+              width={64}
+              height={64}
+              className="absolute transition-opacity duration-300 group-hover:opacity-0"
+            />
+            <Image
+              src="/colored_logo.png"
+              alt="AISC Logo Lit"
+              width={64}
+              height={64}
+              className="absolute transition-opacity duration-300 opacity-0 group-hover:opacity-100"
+            />
           </Link>
 
           <ul className="flex space-x-8">
