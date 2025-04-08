@@ -10,7 +10,7 @@
       "Caleb Li"
     ],
     "link": "https://github.com/aisc/data-validation-pipeline",
-    "image": "/data_validation.png"
+    "image": "/education.png"
   },
   {
     "title": "Discord Bot",
@@ -22,7 +22,7 @@
       "Borna Hematty"
     ],
     "link": "https://github.com/aisc/discord-bot",
-    "image": "/discord_bot.png"
+    "image": "/education.png"
   },
   {
     "title": "Website Development",
@@ -35,6 +35,6 @@
       "Aung Myat"
     ],
     "link": "https://github.com/aisc/aisc_website",
-    "image": "/website_dev.png"
+    "image": "/education.png"
   }
 ]
