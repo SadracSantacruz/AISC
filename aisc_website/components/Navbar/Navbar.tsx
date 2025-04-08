@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="bg-transparent px-8 py-4">
-      <div className="max-w-7xl mx-auto flex items-center justify-between text-white font-semibold tracking-wide text-[18px] w-full">
+      <div className="max-w-7xl mx-auto flex items-center justify-between text-white font-semibold tracking-wide text-[18px] w-full font-[var(--font-bai-jamjuree)]">
         {/* Mobile Menu Button */}
         <button
           className="md:hidden"
@@ -118,7 +118,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Slide-out Menu */}
       {isMobileMenuOpen && (
-        <div className="fixed inset-0 bg-gradient-to-r from-black to-gray-400 z-50 flex flex-col space-y-8 p-8 text-white text-2xl font-bold">
+        <div className="fixed inset-0 bg-gradient-to-r from-black to-gray-400 z-50 flex flex-col space-y-8 p-8 text-white text-2xl font-bold font-[var(--font-bai-jamjuree)]">
           <button
             className="self-start"
             onClick={() => setMobileMenuOpen(false)}
