@@ -110,7 +110,7 @@ export default function Home() {
         </div>
 
         <p className="text-center mt-12 text-xl font-normal text-gray-300 font-[var(--font-bai-jamjuree)]">
-          Not everyone has the means to become AI literate, whether it's due to
+          Not everyone has the means to become AI literate, whether it’s due to
           a lack of resources, opportunities, or time.
         </p>
       </section>

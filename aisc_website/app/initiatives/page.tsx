@@ -12,7 +12,7 @@ export default function InitiativesPage() {
           <h1 className="text-3xl md:text-5xl font-semibold text-[#418099] leading-snug max-w-4xl">
             Technology could benefit or hurt people, so the usage of tech is the
             responsibility of humanity as a whole, not just the discoverer. I am
-            a person before I'm an AI technologist.
+            a person before I’m an AI technologist.
           </h1>
           <p className="text-right text-base md:text-lg text-white/70 italic">
             — Fei-Fei Li

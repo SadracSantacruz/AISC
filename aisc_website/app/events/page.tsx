@@ -9,7 +9,7 @@ export default function EventsPage() {
   const [openCategory, setOpenCategory] = useState("");
   useEffect(() => {
     const priorities = ["Happening", "Upcoming", "Past"];
-    for (let category of priorities) {
+    for (const category of priorities) {
       if (events.some((event) => event.status === category)) {
         setOpenCategory(category);
         break;
@@ -25,7 +25,7 @@ export default function EventsPage() {
           <h1 className="text-white font-semibold text-3xl md:text-5xl font-[var(--font-bai-jamjuree)] leading-snug max-w-4xl text-center md:text-left">
             Technology could benefit or hurt people, so the usage of tech is the
             responsibility of humanity as a whole, not just the discoverer. I am
-            a person before I'm an AI technologist.
+            a person before I’m an AI technologist.
           </h1>
           <p className="text-center md:text-right text-base md:text-lg text-white/70 italic font-[var(--font-bai-jamjuree)]">
             — Fei-Fei Li
