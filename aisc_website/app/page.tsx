@@ -3,7 +3,6 @@ import Navbar from "@/components/Navbar/Navbar";
 import Button from "@/components/Button/Button";
 import Carousel from "@/components/Carousel/Carousel";
 import Footer from "@/components/Footer/Footer";
-import Link from "next/link";
 
 export default function Home() {
   return (
