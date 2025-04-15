@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
+import Image from "next/image";
 
 export default function AboutPage() {
   return (
@@ -76,7 +77,7 @@ export default function AboutPage() {
               </li>
             </ul>
           </div>
-          <img
+          <Image
             src="/afterlight-3-1.png"
             alt="GAIN visual"
             className="w-full max-w-md object-cover rounded-2xl"
@@ -109,7 +110,7 @@ export default function AboutPage() {
               </li>
             </ul>
           </div>
-          <img
+          <Image
             src="/dsf3240-1.png"
             alt="IMPACT visual"
             className="w-full max-w-md object-cover rounded-2xl"
