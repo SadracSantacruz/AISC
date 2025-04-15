@@ -26,14 +26,8 @@
   },
   {
     "title": "Website Development",
-    "description": "The development of this website! It was made with React, Typescript, Tailwind, and love.",
-    "contributors": [
-      "Parth Patel",
-      "Daniel Lin",
-      "Sadrac Santacruz Ibarra",
-      "Meiqi Lai",
-      "Aung Myat"
-    ],
+    "description": "The development of this website! It was made with NextJS, Typescript, Tailwind, and love.",
+    "contributors": ["Sadrac Santacruz Ibarra", "Rohan Sachdeva"],
     "link": "https://github.com/aisc/aisc_website",
     "image": "/education.png"
   }
