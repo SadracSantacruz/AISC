@@ -149,8 +149,7 @@ export default function Home() {
             communities.
           </p>
 
-          {/* I think this button should redirect you to the Initiatives page */}
-          <Button text="READ MORE" href="/grade-school-initiative" size="lg" />
+          <Button text="READ MORE" href="/initiatives" size="lg" />
         </div>
       </section>
 
