@@ -21,7 +21,8 @@ export default function AboutPage() {
         <section className="w-full flex flex-col gap-12 sm:gap-16 lg:gap-0">
           <div className="lg:max-w-6xl lg:mx-auto">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-pink-400 leading-snug text-left lg:pl-4">
-              AI IS BECOMING<br className="hidden sm:block" />
+              AI IS BECOMING
+              <br className="hidden sm:block" />
               PIVOTAL IN EVERY INDUSTRY —<br className="hidden sm:block" />
               NOT JUST TECH.
             </h2>
@@ -62,13 +63,15 @@ export default function AboutPage() {
               <li className="flex items-start gap-3">
                 <span>⚙️</span>
                 <span>
-                  Contributing to technical projects and research teams using AI.
+                  Contributing to technical projects and research teams using
+                  AI.
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <span>🌐</span>
                 <span>
-                  Networking with industry leaders at workshops, symposia, and collaborative programs.
+                  Networking with industry leaders at workshops, symposia, and
+                  collaborative programs.
                 </span>
               </li>
             </ul>
@@ -93,13 +96,15 @@ export default function AboutPage() {
               <li className="flex items-start gap-3">
                 <span>👩‍🏫</span>
                 <span>
-                  Teaching interactive courses at local grade schools to inspire early interest in AI.
+                  Teaching interactive courses at local grade schools to inspire
+                  early interest in AI.
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <span>📝</span>
                 <span>
-                  Creating engaging articles and projects for learners of all skill levels.
+                  Creating engaging articles and projects for learners of all
+                  skill levels.
                 </span>
               </li>
             </ul>
@@ -130,11 +135,26 @@ export default function AboutPage() {
               { name: "Neil Damle", role: "Vice President" },
               { name: "Hillary Chang", role: "Vice President" },
               { name: "Jiya Makhija", role: "Treasurer" },
-              { name: "Rohan Sachdeva", role: "Director of Technical Projects" },
-              { name: "Axel Orrhede", role: "Technical Projects (Extended Board)" },
-              { name: "Yuvika", role: "Director of External Affairs" },
-              { name: "Stefanie", role: "External Affairs (Extended Board)" },
-              { name: "Joseph Guzman", role: "External Affairs (Extended Board)" },
+              {
+                name: "Rohan Sachdeva",
+                role: "Director of Technical Projects",
+              },
+              {
+                name: "Axel Orrhede",
+                role: "Technical Projects (Extended Board)",
+              },
+              {
+                name: "Yuvika Satapathy",
+                role: "Director of External Affairs",
+              },
+              {
+                name: "Stefanie Zarate",
+                role: "External Affairs (Extended Board)",
+              },
+              {
+                name: "Joseph Guzman",
+                role: "External Affairs (Extended Board)",
+              },
               { name: "Anisha Ramesh", role: "Marketing & Media Lead" },
               { name: "Divya Vijay", role: "Co-Director of Education" },
             ].map((member, idx) => (
