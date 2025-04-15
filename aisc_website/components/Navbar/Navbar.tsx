@@ -103,14 +103,14 @@ const Navbar: React.FC = () => {
 
           <ul>
             <li>
-              <Link
-                href="/get-involved"
-                className={`${
-                  pathname === "/get-involved" ? "text-purple-400" : ""
-                } hover:text-purple-400 transition-colors duration-200`}
+              <a
+                href="https://linktr.ee/aiscucsd"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-purple-400 transition-colors duration-200"
               >
                 GET INVOLVED
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
