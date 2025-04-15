@@ -150,9 +150,7 @@ export default function Home() {
             communities.
           </p>
 
-          <Link href="/initiatives">
-            <Button text="READ MORE" size="lg" href="/initiatives" />
-          </Link>
+          <Button text="READ MORE" size="lg" href="/initiatives" />
         </div>
       </section>
 

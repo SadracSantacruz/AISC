@@ -80,6 +80,8 @@ export default function AboutPage() {
           <Image
             src="/afterlight-3-1.png"
             alt="GAIN visual"
+            width={600}
+            height={400}
             className="w-full max-w-md object-cover rounded-2xl"
           />
         </section>
@@ -113,6 +115,8 @@ export default function AboutPage() {
           <Image
             src="/dsf3240-1.png"
             alt="IMPACT visual"
+            width={600}
+            height={400}
             className="w-full max-w-md object-cover rounded-2xl"
           />
         </section>
